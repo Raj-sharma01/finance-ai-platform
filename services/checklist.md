@@ -3,10 +3,12 @@
 ## 🔹 Phase 1: Core Setup & User Auth (Most Critical)
 - [x] Project setup (Spring Boot, modules/services)
 - [ ] DB integration (MySQL/Postgres)
-- [ ] Entity & DTO design (`User`, etc.)
-- [ ] User Registration
-- [ ] Email/Username uniqueness check
-- [ ] Password encryption (BCrypt)
+    - [x] DB integration for user-service
+- [ ] Entity & DTO design
+    - [x] Entity & DTO design for user-service
+- [x] User Registration
+- [x] Email/Username uniqueness check
+- [x] Password encryption (BCrypt)
 - [ ] User Login
 - [ ] JWT generation on login
 - [ ] JWT verification middleware (Interceptor/Filter)
